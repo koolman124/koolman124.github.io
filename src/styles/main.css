@@ -1,0 +1,20 @@
+body {
+    font-family: "Karla", sans-serif;
+    height:100%;
+    background-color: black;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: auto;
+}
+
+#welcome_card {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
