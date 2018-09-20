@@ -22,7 +22,6 @@ body:before {
   -ms-transform: scale(1);
   transform: scale(1);
 }
-
 body:after {
   display: block;
   content: "";
@@ -43,6 +42,9 @@ body:after {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
+}
+body {
+  font-family: "Karla", sans-serif;
 }
 #welcome_card {
   top: 50%;
